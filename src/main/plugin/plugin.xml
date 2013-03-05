@@ -1,0 +1,36 @@
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="http://www.jivesoftware.com/schemas/clearspace/2_5/plugin.xsd">
+    <name>Motorola SSO</name>
+    <description></description>
+    <author>huymac</author>
+    <version>1.0.0</version>
+    
+    <!-- It is good practice to only develop a plugin toward one version of Jive SBS -->  
+    <minServerVersion>5.0.3</minServerVersion>  
+    <maxServerVersion>5.0.5</maxServerVersion>  
+    
+    <!-- Database Key that should always be added, writing to the database or not -->  
+    <databaseKey>1000000</databaseKey>  
+    
+  	<!-- Initialization Class. Builds and Destroys the plugin -->  
+    <class>com.fgsquared.motorola.MotorolaPlugin</class>  
+    
+    <!-- Defines the menus where the plugin will exist, can find these in the ui-components.xml of the core code -->  
+ 
+
+	<!-- 
+    <authorURL>
+    <pluginURL>
+    <databaseKey>
+    <databaseVersion>
+    <components>
+    <css>
+    <soy>
+    <javascript>
+    <widget>
+    <macro>
+    <urlmapping>
+    <sitemesh>
+	-->
+
+</plugin>
